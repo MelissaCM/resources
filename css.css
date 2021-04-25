@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+	body {
+		margin: 0 !important;
+		font-family: 'Muli';
+		color: #404040;
+	}
+
+	h5 {
+		font-weight: 800;
+	}
+
+	.headline-content {
+		color: #6190ff;
+		line-height:22px;
+		font-size: 18px;
+		text-align: justify;
+	}
+
+	.footer {
+		padding: 0px 40px;
+		font-size: 12px;
+		line-height:18px;
+		text-align: center;
+		color: #404040;
+	}
+
+	.link-footer {
+		font-size: 12px;
+		text-align: center;
+	}
+
+	.sub-text{
+		font-size: 16px;
+		line-height: 1.8;
+		text-align: center;
+		padding:0px 80px 0px 80px;
+	}
+
+	.text-content{
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	.responsive-table{
+		width: 90% !important;
+	}
+
+	.box-icon {
+		width: 150px;
+		background-color: #FF5700;
+		padding: 40px;
+	}
+
+	.box-text {
+		width: 350px;
+		background-color: #F8F8F8;
+		padding:20px 20px;
+		text-align: justify;
+	}
+
+@media screen and (max-width:600px) {
+	body, table, td, p, a, li, blockquote {
+		-webkit-text-size-adjust: none!important;
+	}
+	table {
+		width: 100%;
+	}
+	.footer {
+		height: auto !important;
+		max-width: 100% !important;
+		width: 100% !important;
+	}
+	table.responsiveImage {
+		height: auto !important;
+		max-width: 100% !important;
+		width: 96% !important;
+	}
+	table.responsiveContent {
+		height: auto !important;
+		max-width: 100% !important;
+		width: 80% !important;
+	}
+	}
+
+	@media screen and (max-width:480px) {
+	/*styling for objects with screen size less than 480px; */
+	body, table, td, p, a, li, blockquote {
+		-webkit-text-size-adjust: none!important;
+	}
+	table {
+		/* All tables are 100% width */
+		width: 100% !important;
+		border-style: none !important;
+
+	}
+	.footer {
+		height: auto !important;
+		max-width: 100% !important;
+		width: 96% !important;
+	}
+	.table.responsiveImage {
+		height: auto !important;
+		max-width: 100% !important;
+		width: 90% !important;
+	}
+	.table.responsiveContent {
+		height: auto !important;
+		max-width: 90% !important;
+		width: 80% !important;
+		text-align: center;
+		padding: 10px;
+	}
+
+	.text-content{
+		font-size: 14px;
+		line-height: 22px;
+		text-align: center;
+	}
+
+	.sub-text{
+		font-size: 16px;
+		line-height: 1.8;
+		text-align: center;
+		padding:0px 20px 0px 20px;
+	}
+
+	.headline-content {
+		color: #6190ff;
+		line-height:22px;
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.responsive-table{
+		width: 90% !important;
+	}
+
+	.box-icon {
+		width: 150px;
+	}
+
+	.box-text {
+		width: 400px;
+		background-color: #F8F8F8;
+		padding: 20px;
+		text-align: center;
+	}
+}
